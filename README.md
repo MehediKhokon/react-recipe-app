@@ -7,6 +7,7 @@ _A react recipe app with django rest api_. :smile:
 - React
 - React hooks ( useState, useEffect )
 - Custom CSS
+- New trending Glassmorphism design.
 
 ### Live link
 
