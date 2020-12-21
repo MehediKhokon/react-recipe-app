@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Recipes({title, description, created}) {
     const [more, setMore] = useState(false)
     return (
-        <div className="card mb-3 mt-5">	  
+        <div data-aos="fade-up" className="card mb-3 mt-5">	  
 	  		<div className="card-body">
 	    		<h5 className="card-title">{title}</h5>
 	    		<p className="card-text">

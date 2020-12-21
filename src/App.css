@@ -64,3 +64,10 @@ footer{
   backdrop-filter: blur(10px);
   
 }
+
+.btn{
+  background: rgba(30, 63, 57, 0.3);
+  text-align: center;
+  backdrop-filter: blur(10px);
+  color: rgb(236, 222, 222);
+}
