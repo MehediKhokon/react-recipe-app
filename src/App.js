@@ -23,6 +23,7 @@ function App() {
       offset:200,
       duration: 2000
     })
+    AOS.refresh()
   }, [])
 
   return (
