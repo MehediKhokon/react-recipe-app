@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-recipe-app/static/css/main.e19bad67.chunk.css",
+    "main.css": "/react-recipe-app/static/css/main.8eec3f6d.chunk.css",
     "main.js": "/react-recipe-app/static/js/main.65debf80.chunk.js",
     "main.js.map": "/react-recipe-app/static/js/main.65debf80.chunk.js.map",
     "runtime-main.js": "/react-recipe-app/static/js/runtime-main.c5f65529.js",
@@ -12,7 +12,7 @@
     "static/js/3.0a2cf238.chunk.js.map": "/react-recipe-app/static/js/3.0a2cf238.chunk.js.map",
     "index.html": "/react-recipe-app/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/react-recipe-app/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.e19bad67.chunk.css.map": "/react-recipe-app/static/css/main.e19bad67.chunk.css.map",
+    "static/css/main.8eec3f6d.chunk.css.map": "/react-recipe-app/static/css/main.8eec3f6d.chunk.css.map",
     "static/js/2.40ba7414.chunk.js.LICENSE.txt": "/react-recipe-app/static/js/2.40ba7414.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-recipe-app/static/media/bgf.d0c6dee6.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.c5f65529.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.40ba7414.chunk.js",
-    "static/css/main.e19bad67.chunk.css",
+    "static/css/main.8eec3f6d.chunk.css",
     "static/js/main.65debf80.chunk.js"
   ]
 }
