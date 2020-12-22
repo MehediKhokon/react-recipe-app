@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-image: url(images/bgf.jpg);
   /*background: linear-gradient(to right,#7b4397, #dc2430);*/
@@ -71,4 +75,8 @@ footer{
   text-align: center;
   backdrop-filter: blur(10px);
   color: rgb(236, 222, 222);
+}
+
+.btn:focus {
+  box-shadow: none;
 }
