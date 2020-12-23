@@ -31,7 +31,7 @@ function App() {
     const timer = setTimeout(() => {
       fetchData()
       setLoading(false)
-    }, 12000)
+    }, 20000)
     return () => clearTimeout(timer)
     
   }, [])
