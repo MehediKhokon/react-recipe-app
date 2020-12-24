@@ -9,8 +9,7 @@ import SkeletonCard from './components/SkeletonCard'
 const url = 'https://django-recipe-app.herokuapp.com'
 
 function App() {
-  const [recipes, setRecipes] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [recipes, setRecipes] = useState(null)
 
   async function fetchData() {
     const res = await axios.get(url)
@@ -26,11 +25,9 @@ function App() {
     })
     AOS.refresh()
 
-    setLoading(true)
     const timer = setTimeout(() => {
       fetchData()
-      setLoading(false)
-    }, 20000)
+    }, 5000)
     return () => clearTimeout(timer)
   }, [])
 
@@ -43,12 +40,12 @@ function App() {
           </h1>
         </div>
         <div>
-          {loading && <SkeletonCard />}
-          {!loading &&
+          {recipes &&
             recipes.map((recipe) => {
               return <Recipes key={recipe.id} {...recipe} />
             })}
         </div>
+        {!recipes && <SkeletonCard />}
       </div>
       <footer className='text-center text-white'>@no right</footer>
     </div>
