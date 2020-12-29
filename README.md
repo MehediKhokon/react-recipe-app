@@ -2,7 +2,7 @@
 
 _A react recipe app with django rest api_. :smile:
 
-#### Dependency list
+#### Stack list
 - Django DRF Backend
 - React
 - React hooks ( useState, useEffect )
